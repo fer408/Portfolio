@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html>
-	<head>
+	<header>
+		<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE-edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Fernando's Portfolio</title>
 		 <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet"> 
+		 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
-	<body>
+	</header>
+	<main>
+		<body>
 		<div class="container">
-			<div class="row">
+			<article>
+				<div class="row">
 				<div class="col-md-6">
 					<img class="title-logo img-responsive" src="images/logo.png" alt="Udacity Logo">
 				</div>
-				<div class="col-md-6 text-right text-uppercase">
+				<div class="col-md-6 text-right text-uppercase" id="about">
 					<h1 class="title-super text-thin">Fernando Alarcon</h1>
 					<h3>Software Developer</h3>
 				</div>
 			</div>
-			<div class="row">
+			</article>
+			<article>
+				<div class="row">
 				<div class="col-md-12">
 					<hr>
 				</div>
@@ -28,11 +35,14 @@
 			<div class="row center-block">
 				<div class="col-md-12">
 					<img class="img-responsive center-block img-rounded" src="images/matrix.jpeg" alt="Matrix">
+					<p class="text-center">Will you choose the red or blue pill?</p>
 				</div>
 			</div>
-			<div class="row">
+			</article>	
+			<article>
+				<div class="row">
 				<div class="col-md-12">
-					<h2 class="text-muted">Featured Work:</h2>
+					<h2 class="text-muted" id="portfolio">Featured Work:</h2>
 				</div>
 			</div>
 			<div class="row text-center">
@@ -49,6 +59,12 @@
 					<h3 class="text-uppercase">Report card</h3>
 				</div>
 			</div>
+			</article>
 		</div>
 	</body>
+	</main>
+	<footer>
+		<p>This is a footer!!</p>
+	</footer>
+
 </html>
